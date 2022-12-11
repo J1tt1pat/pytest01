@@ -3,7 +3,7 @@ def sum_of_two_numbers(number1, number2):
     if not validate_input(number1):
         return display_error(1)
     elif not validate_input(number2):
-        return display_error(1)
+        return display_error(2)
     else: return number1+number2
 
 def display_error(index):
